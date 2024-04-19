@@ -19,8 +19,23 @@ switch ($_GET['page']) {
     case "profile":
         include "profile.php";
         break;
+    case "help":
+        include "help.php";
+        break;
+    case "impressum":
+        include "impressum.php";
+        break;
     case "register":
         include "register.php";
+        break;
+    case "images":
+        include "images.php";
+        break;
+    case "usermanagement":
+        include "usermanagement.php";
+        break;
+    case "imagemanagement":
+        include "imagemanagement.php";
         break;
     default:
         include "home.php";

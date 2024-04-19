@@ -1,27 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <navbar>
-    <user>
+    <admin>
         <item>
             <title>Home</title>
-            <url>/</url>
+            <url>index.php?page=home</url>
         </item>
         <item>
             <title>Profile</title>
-            <url>/profile</url>
+            <url>index.php?page=profile</url>
         </item>
         <item>
-            <title>Settings</title>
-            <url>/settings</url>
+            <title>Usermanagement</title>
+            <url>index.php?page=usermanagement</url>
+        </item>
+        <item>
+            <title>Imagemanagement</title>
+            <url>index.php?page=imagemanagement</url>
+        </item>
+        <item>
+            <title>Impressum</title>
+            <url>index.php?page=impressum</url>
         </item>
         <item>
             <title>Logout</title>
-            <url>/logout</url>
+            <url>index.php?page=logout</url>
+        </item>
+    </admin>
+    <user>
+        <item>
+            <title>Home</title>
+            <url>index.php?page=home</url>
+        </item>
+        <item>
+            <title>Images</title>
+            <url>index.php?page=images</url>
+        </item>
+        <item>
+            <title>Profile</title>
+            <url>index.php?page=profile</url>
+        </item>
+        <item>
+            <title>Impressum</title>
+            <url>index.php?page=impressum</url>
+        </item>
+        <item>
+            <title>Help</title>
+            <url>index.php?page=help</url>
+        </item>
+        <item>
+            <title>Logout</title>
+            <url>index.php?page=logout</url>
         </item>
     </user>
     <guest>
         <item>
             <title>Home</title>
             <url>index.php?page=home</url>
+        </item>
+        <item>
+            <title>Impressum</title>
+            <url>index.php?page=impressum</url>
+        </item>
+        <item>
+            <title>Help</title>
+            <url>index.php?page=help</url>
         </item>
         <item>
             <title>Login</title>
@@ -32,22 +74,4 @@
             <url>index.php?page=register</url>
         </item>
     </guest>
-    <admin>
-        <item>
-            <title>Dashboard</title>
-            <url>/dashboard</url>
-        </item>
-        <item>
-            <title>Users</title>
-            <url>/admin/users</url>
-        </item>
-        <item>
-            <title>Settings</title>
-            <url>/admin/settings</url>
-        </item>
-        <item>
-            <title>Logout</title>
-            <url>/logout</url>
-        </item>
-    </admin>
 </navbar>

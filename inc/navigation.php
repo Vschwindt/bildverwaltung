@@ -13,7 +13,7 @@
             $xml_as_array = json_decode(json_encode(simplexml_load_file("config/navigation.xml")),TRUE);
             //var_dump($xml->navbar);
 
-            $usertype = "guest";
+            $usertype = "admin";
             foreach ($xml_as_array[$usertype] as $element) {
                 foreach ($element as $subelement) {
                     $title = ($subelement["title"]);
